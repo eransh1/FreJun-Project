@@ -1,0 +1,38 @@
+.navbar{
+    max-width: 100%;
+    height: 75px;
+    display:flex ;
+    align-items: center;
+    padding: 0px 32px;
+justify-content: space-between;
+background: #F9FAFB;
+z-index: 1000;
+}
+
+.logo{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 20px;
+color: #4A4A4A;
+cursor: pointer;
+}
+.btn{
+    width: 80px;
+height: 40px;
+padding: 10px 16px;
+gap: 8px;
+background: #FFFFFF;
+border: 1px solid #D0D5DD;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #344054;
+}
